@@ -1,0 +1,110 @@
+body {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    max-width: 700px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.header {
+    font-family: 'Galada', cursive;
+    font-size: 42px;
+    text-align: center;
+    color: #267daf;
+    width: 100%;
+}
+
+.students-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.student-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #d9d6d6;
+}
+
+.avatar {
+    max-width: 200px;
+    float: left;
+}
+.info-body {
+    float: left;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.location {
+    font-size: 20px;
+    background: url(placeholder.png) no-repeat 0% 50%;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+.name {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.adress-items {
+    clear: both;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.adress-items li {
+    float: left;
+    margin-right: 15px;
+}
+.adress-items li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.adress-items li:nth-child(1) a {
+    background: url(email.png) no-repeat 50% 50%;
+    background-size: 100%;
+}
+.adress-items li:nth-child(2) a {
+    background: url(git.png) no-repeat 50% 50%;
+    background-size: 100%;
+}
+.adress-items li:nth-child(3) a {
+    background: url(face.png) no-repeat 50% 50%;
+    background-size: 100%;
+}
+.search-bar {
+    width: 100%;
+    position: relative;
+}
+.search-icon {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    background: url(search.png) no-repeat 50% 50%;
+}
+.search-input {
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 42px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 4px solid black;
+    transition: border-bottom .3s linear;
+    font-size: 24px;
+}
+.search-input:focus {
+    border-bottom: 4px solid #FFCA28;
+    outline: 0;
+}

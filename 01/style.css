@@ -1,0 +1,20 @@
+.main-box {
+  padding: 20px;
+  border-bottom: 2px solid #acacac;
+  width: 352px;
+  margin: 0 auto;
+}
+.box {
+  cursor: pointer;
+  background: red;
+  width: 352px;
+  height: 352px;
+}
+.box img {
+  display: block;
+  opacity: 1;
+}
+.active img {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
